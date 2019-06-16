@@ -6,10 +6,10 @@ from time import sleep
 # Definição da pinagem utilizada para controle. Descrição:
 #
 # serpino: Pino utilizado na interface PWM, para controle do
-# motor do tipo servomotor Tower Pro MG
+# motor do tipo servomotor Tower Pro MG.
 #
 # psen: Pino do tipo INPUT, que recebe o sinal do sensor de
-# barreira responsável pela detecção de embarcação
+# barreira responsável pela detecção de embarcação.
 #
 # led: Pino responsável pelo controle dos leds de indicação de 
 # embarcação, conectado também ao buzzer para acionamento
@@ -56,7 +56,7 @@ pwmdc = "P8_13"
 # dr => Quantidade de passos dados. Os motores de passo estão
 # acoplados ao mecanismo de abertura e fechamento da ponte.
 # Assim, mediante testes, determinamos que 50 passos seriam
-# suficientes para a abertura de um ângulo razoável da ponte
+# suficientes para a abertura de um ângulo razoável da ponte.
 #
 # ct => Flag de controle para o controle da ponte. A mudança
 # para 0 significa que ela deve abrir, e para 1, indica que 
@@ -160,7 +160,9 @@ while(True):
         #Observe que o controle do servo é feito via posição, cessando o movimento quando a posição
         #é atingida. O motor DC não. Portanto, sua parada deve ser feita de forma manual.        
 
-        #Espere e gire os motores de passo na direção de efetivamente abrir a ponte. Espere novamente
+        #Espere e gire os motores de passo na direção de efetivamente abrir a ponte.
+        #O chaveamento das bobinas é feito da forma descrita no link supracitado.
+        #Espere novamente.
         sleep(3)
 
         for i in range(dr):
