@@ -9,13 +9,13 @@ Durante o levantamento, é de extrema importância garantir a ausência total de
 
 A ponte fica aberta até que o sensor nos informe que não há mais presença de embarcações. Sendo assim,  é seguro que a ponte inicie o movimento para fechar. Para isso, invertemos o sentido de rotação dos motores, fazendo com que a ponte se feche, e após isso, abrem-se as cancelas, e repete-se o processo, aguardando por novos sinais de presença.
 
-#Descrição
+# Descrição
 
 Este README.md tem como função servir de guia para o projeto de um sistema de ponte levadiça, de construção ao código de controle. O protótipo foi construído com madeira, formado por duas bases cúbicas, que servem de suporte para a ponte. A ponte em si consiste de dois retângulos de pouca espessura, também em madeira, em cujas extremidades se encontram parafusadas dobradiças, permitindo o movimento relativo entre os retângulos e a base, e simulando uma ponte em pequena escala. O torque é passado para as dobradiças via um barbante, acoplado na ponte com um furo, e enrolado no eixo de um motor de passo, que se encontra por cima de uma base também de madeira.  Além disso, encontra-se acoplado um sensor de presença, que será utilizado para detectar embarcações e orquestrar o movimento da ponte. Todos estes detalhes de construção podem ser melhor entendidos observando a foto abaixo:
 
 ![Ponte](/Imagens/ponte.png)
 
-#Lista de componentes usados
+# Lista de componentes usados
 
 * 1 Motor DC
 * 1 Servomotor Tower Pro MG995
@@ -27,9 +27,9 @@ Este README.md tem como função servir de guia para o projeto de um sistema de 
 * 2 Driver L298N
 * Jumpers
 
-[!esquematico][Imagens/esq.png]
+![esquematico][Imagens/esq.png]
 
-#Código Fonte
+# Código Fonte
 
 De início, pensamos em utilizar a linguagem C++ para controle dos pinos da BeagleBone. Como o acesso I/O à placa é feito via arquivos, a construção do setup básico tornou-se extremamente verbosa e maçante. Migramos, então, para a linguagem Python utilizando a biblitoteca Adafruit que provê um novo layout de abstração para a escrita de código, podendo reduzir os esforços referentes ao setup, e concentrá-los no desenvolvimento da lógica da ponte.
 
@@ -41,5 +41,5 @@ Para execução deste código, basta clonar este repositório, abrir um terminal
 
 Detalhes adicionais estão documentados dentro do código principal.
 
-#Desenvolvedores
+# Desenvolvedores
 [Aqui](https://github.com/mscherma/bbone_bridge/graphs/contributors) se encontram os desenvolvedores de código deste projeto.
