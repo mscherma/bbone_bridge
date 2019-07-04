@@ -28,7 +28,7 @@ Este README.md tem como função servir de guia para o projeto de um sistema de 
 * 1 Transistor para controle de corrente ([Datasheet](http://www.farnell.com/datasheets/661741.pdf))
 * Jumpers
 
-![esquematico][Imagens/esq.png]
+![esquematico](Imagens/esq.png)
 
 # Código Fonte
 
