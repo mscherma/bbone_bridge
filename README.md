@@ -17,14 +17,14 @@ Este README.md tem como função servir de guia para o projeto de um sistema de 
 
 # Lista de componentes usados
 
-* 1 Motor DC
-* 1 Servomotor Tower Pro MG995
-* 2 Motores de passo
+* 1 Motor DC ([Datasheet](http://www.e-jpc.com/pdf/dcmotors601-0241.pdf)
+* 1 Servomotor Tower Pro MG995 ([Datasheet](https://www.electronicoscaldas.com/datasheet/MG995_Tower-Pro.pdf))
+* 2 Motores de passo ([Datasheet](https://www.circuitspecialists.com/products/pdf/57BYGH207.pdf))
 * 3 Protoboards
 * 2 LEDs
-* 1 Sensor de presença reflexivo
+* 1 Sensor de presença reflexivo ([Datasheet](http://www.ett.co.th/productSensor/E18-D80NK/Manual_IR-Sensor%20Switch%20E18.pdf))
 * 1 Beaglebone Black Rev C com Debian 9.5 2018-10-07 4GB SD IoT instalado
-* 2 Driver L298N
+* 2 Driver L298N ([Datasheet](https://www.sparkfun.com/datasheets/Robotics/L298_H_Bridge.pdf))
 * Jumpers
 
 ![esquematico][Imagens/esq.png]
@@ -42,4 +42,4 @@ Para execução deste código, basta clonar este repositório, abrir um terminal
 Detalhes adicionais estão documentados dentro do código principal.
 
 # Desenvolvedores
-[Aqui](https://github.com/mscherma/bbone_bridge/graphs/contributors) se encontram os desenvolvedores de código deste projeto.
+[Aqui](https://github.com/mscherma/bbone_bridge/graphs/contributors) se encontram os desenvolvedores de código e também construtores deste projeto.
