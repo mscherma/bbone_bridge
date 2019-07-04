@@ -17,7 +17,7 @@ Este README.md tem como função servir de guia para o projeto de um sistema de 
 
 # Lista de componentes usados
 
-* 1 Motor DC ([Datasheet](http://www.e-jpc.com/pdf/dcmotors601-0241.pdf)
+* 1 Motor DC ([Datasheet](http://www.e-jpc.com/pdf/dcmotors601-0241.pdf))
 * 1 Servomotor Tower Pro MG995 ([Datasheet](https://www.electronicoscaldas.com/datasheet/MG995_Tower-Pro.pdf))
 * 2 Motores de passo ([Datasheet](https://www.circuitspecialists.com/products/pdf/57BYGH207.pdf))
 * 3 Protoboards
@@ -25,6 +25,7 @@ Este README.md tem como função servir de guia para o projeto de um sistema de 
 * 1 Sensor de presença reflexivo ([Datasheet](http://www.ett.co.th/productSensor/E18-D80NK/Manual_IR-Sensor%20Switch%20E18.pdf))
 * 1 Beaglebone Black Rev C com Debian 9.5 2018-10-07 4GB SD IoT instalado
 * 2 Driver L298N ([Datasheet](https://www.sparkfun.com/datasheets/Robotics/L298_H_Bridge.pdf))
+* 1 Transistor para controle de corrente ([Datasheet](http://www.farnell.com/datasheets/661741.pdf))
 * Jumpers
 
 ![esquematico][Imagens/esq.png]
